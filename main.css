@@ -1,0 +1,43 @@
+body{
+  background: #ce921a;
+  margin:auto;
+}
+#container {
+  padding-left: 20rem;
+}
+#mapid {
+height:600px;
+width: 70%;
+border: 5px solid #000;
+}
+#head{
+  color: #fff;
+}
+#text {
+  font-size: 1.5rem;
+  color: #fff;
+}
+footer{
+ padding-left: 19rem;
+}
+
+@media screen and (max-width: 375px){
+  #container {
+    margin: auto;
+padding: 0;
+  }
+  #mapid {
+height: 450px;
+margin: auto;
+padding-right: 1rem;
+  }
+  #head{
+    padding-left: 1.25rem;
+  }
+  #text {
+    padding-left: 1.25rem;
+  }
+  footer{
+   padding-left: 5.25rem;
+  }
+}

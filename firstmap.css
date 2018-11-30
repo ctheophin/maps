@@ -1,0 +1,48 @@
+
+body{
+  background: #5964bf;
+  margin:auto;
+}
+#container {
+  padding-left: 20rem;
+}
+
+
+#mapid {
+height:600px;
+width: 70%;
+padding-left: 3rem;
+margin-top: 1rem;
+border: 5px solid #000;
+}
+#head{
+  color: #fff;
+}
+#text {
+  font-size: 1.5rem;
+  color: #fff;
+}
+footer{
+ padding-left: 19rem;
+}
+
+@media screen and (max-width: 375px){
+  #container {
+    margin: auto;
+padding: 0;
+  }
+  #head{
+  padding-left: 1.25rem;
+  }
+  #mapid {
+height: 450px;
+margin: auto;
+padding-right: 1rem;
+  }
+  #text {
+    padding-left: 1.25rem;
+  }
+  footer{
+   padding-left: 5.5rem;
+  }
+}
